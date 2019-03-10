@@ -42,7 +42,7 @@
       <br>
       <a href="#">Time Tracker App</a>
     </div>
-    <footer>contact: josh@codebuilt.dev</footer>
+    <footer>contact: <a href="mailto:josh@codebuilt.dev">josh@codebuilt.dev</a></footer>
   </body>
 </html>
 
