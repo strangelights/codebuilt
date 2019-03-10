@@ -32,8 +32,8 @@
   </head>
   <body>
     <h1>Josh Brookshire</h1>
-    <p>Full Stack Web Developer</p>
-    <p>
+    <h2>Full Stack Web Developer</h2>
+    <div id="links">
       <a href="https://github.com/strangelights/slack_dark_theme" target="_blank">Slack Dark Theme</a>
       <br>
       <a href="https://asta.rsglab.com/projects/ScriptChecker/" target="_blank">ScriptChecker </a><a href="https://git.rsglab.com/support-org/scriptchecker" target="_blank">Repo</a>
@@ -41,7 +41,7 @@
       <a href="https://asta.rsglab.com/projects/sev1/" target="_blank">Sev1 Tool</a><a href="https://git.rsglab.com/support-org/sev1" target="_blank">Repo</a>
       <br>
       <a href="#">Untiled Time Tracker App</a>
-    </p>
+    </div>
   </body>
 </html>
 

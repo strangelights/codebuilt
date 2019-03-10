@@ -6,14 +6,17 @@ body {
 h1 {
     color: #fff;
     font-style: italic;
-    font-size: 2em; 
+    font-weight: lighter;
+    font-size: 8em; 
 }
 
-p {
+h2 {
     color: #fff;
+    position: relative;
+    top: -10px;
 }
 
 a {
     color: teal;
-    font-size: .5em;
+    font-size: 1em;
 }
