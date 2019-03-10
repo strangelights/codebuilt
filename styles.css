@@ -1,5 +1,6 @@
 body {
-    background-color: #222222;
+    background-color: #222;
+    color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -37,6 +38,13 @@ a:hover {
 }
 
 footer{
+    color: #fff;
     text-align: center;
-    font-size: .8em;
+    font-size: 1em;
+    position: relative;
+    bottom: -140px;
+}
+
+footer a{
+    font-size: 1em;
 }
