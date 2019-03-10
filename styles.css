@@ -30,8 +30,13 @@ a:hover {
     text-decoration: underline;
   }
 
-.links{
+#links{
     position: relative;
     top: -120px;
     left: 61px;
+}
+
+footer{
+    text-align: center;
+    font-size: .8em;
 }
