@@ -5,6 +5,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--
+
+       __           __       ____                   __        __    _         
+      / /___  _____/ /_     / __ )_________  ____  / /_______/ /_  (_)_______ 
+ __  / / __ \/ ___/ __ \   / __  / ___/ __ \/ __ \/ //_/ ___/ __ \/ / ___/ _ \
+/ /_/ / /_/ (__  ) / / /  / /_/ / /  / /_/ / /_/ / ,< (__  ) / / / / /  /  __/
+\____/\____/____/_/ /_/  /_____/_/   \____/\____/_/|_/____/_/ /_/_/_/   \___/ 
+                                                                              
+  
+      -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Codebuilt Portfolio</title>
@@ -22,16 +32,16 @@
   </head>
   <body>
     <h1>Josh Brookshire</h1>
-    <h2>Web Developer</h2>
-    <a href="https://github.com/strangelights/slack_dark_theme">Slack Dark Theme</a>
-    <br>
-    <a href="https://asta.rsglab.com/projects/ScriptChecker/">ScriptChecker</a>
-    <br>
-    <a href="https://git.rsglab.com/support-org/scriptchecker">ScriptChecker - Private Repo</a>
-    <br>
-    <a href="https://git.rsglab.com/support-org/sev1">Sev1 - Private Repo</a>
-    <br>
-    <a href="#">Untiled Time Tracker App</a>
+    <p>Full Stack Web Developer</p>
+    <p>
+      <a href="https://github.com/strangelights/slack_dark_theme" target="_blank">Slack Dark Theme</a>
+      <br>
+      <a href="https://asta.rsglab.com/projects/ScriptChecker/" target="_blank">ScriptChecker </a><a href="https://git.rsglab.com/support-org/scriptchecker" target="_blank">Repo</a>
+      <br>
+      <a href="https://asta.rsglab.com/projects/sev1/" target="_blank">Sev1 Tool</a><a href="https://git.rsglab.com/support-org/sev1" target="_blank">Repo</a>
+      <br>
+      <a href="#">Untiled Time Tracker App</a>
+    </p>
   </body>
 </html>
 

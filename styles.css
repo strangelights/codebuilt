@@ -4,9 +4,16 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: #fff;
+    font-style: italic;
+    font-size: 2em; 
+}
+
+p {
+    color: #fff;
 }
 
 a {
     color: teal;
+    font-size: .5em;
 }
