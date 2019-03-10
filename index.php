@@ -43,7 +43,7 @@
       <br>
       <a href="#">Time Tracker App</a>
     </div>
-    <footer><i class="fas fa-envelope"></i><a href="mailto:josh@codebuilt.dev">josh@codebuilt.dev</a></footer>
+    <footer><i id="envelope"class="fas fa-envelope"></i><a href="mailto:josh@codebuilt.dev">josh@codebuilt.dev</a></footer>
   </body>
 </html>
 

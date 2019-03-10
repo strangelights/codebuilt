@@ -49,3 +49,8 @@ footer a{
     font-size: 1em;
     color: #fff;
 }
+
+#envelope {
+    position: relative;
+    right: 5px;
+}
