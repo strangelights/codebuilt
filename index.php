@@ -38,11 +38,8 @@
 <body>
     <div id="wrapper">
     <nav>
-        <div id="spacer"></div>
-        <div>
         <input class="onoffswitch-checkbox" id="onoffswitch" name="onoffswitch" type="checkbox" onclick="themeToggle()">
         <label class="onoffswitch-label" for="onoffswitch"></label>
-        </div>
     </nav>
     <script>
         var checkbox = document.querySelector("input[name=onoffswitch]");

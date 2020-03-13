@@ -6,9 +6,18 @@ body {
     margin: 0;
 }
 
+nav {
+    float: right;
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    margin-left: 85%;
+}
+
 #wrapper {
     height: 226px;
     background-color: #1A2930;
+    padding-top: 8px;
 }
 
 h1 {
