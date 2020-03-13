@@ -1,56 +1,122 @@
 body {
-    background-color: #222;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #373737;
     font-family: 'Open Sans Condensed', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    height: 226px;
+    background-color: #1A2930;
 }
 
 h1 {
-    color: #fff;
+    color: #f4f4f4;
     font-style: italic;
     font-weight: lighter;
-    font-size: 8em;
-    position: relative;
-    left: 18px;
+    text-align: center;
+    font-size: 4em;
 }
 
 h2 {
-    color: #fff;
+    color: #f4f4f4;
     font-style: italic;
     position: relative;
-    top: -125px;
-    left: 33px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2em;
+    top: -65px;
+    left: -63px;
+}
+
+#languages {
+    color: #c0b283;
+    position: relative;
+    top: -104px;
+    left: 96px;
+    font-size: 1em;
+    
 }
 
 a {
-    color: teal;
-    font-size: 1.2em;
+    color: #1A2930;
+    font-size: 1.3em;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-  }
-
-#links{
-    position: relative;
-    top: -120px;
-    left: 61px;
 }
 
-footer{
-    color: #fff;
+.project-type {
+    color: #373737;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    margin-bottom: -10px;
+    
+}
+
+#links {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.contribution {
+    font-size: 1.1em;
+}
+
+
+footer {
+    color: #373737;
     text-align: center;
     font-size: 1em;
-    position: relative;
-    bottom: -140px;
+    margin-top: 70px;
 }
 
-footer a{
+footer a {
     font-size: 1em;
-    color: #fff;
+    color: #373737;
 }
 
 #envelope {
     position: relative;
     right: 5px;
+}
+
+/* Slider styling */
+.onoffswitch {
+    position: relative; width: 35px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin-top: 14px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 18px; padding: 0; line-height: 18px;
+    border: 2px solid #BBBBBB; border-radius: 18px;
+    background-color: #BBBBBB;
+    transition: background-color 0.2s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; height: 18px; width: 18px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 15px;
+    border: 2px solid #BBBBBB; border-radius: 18px;
+    transition: all 0.2s ease-in; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #5EAD7E;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #5EAD7E;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
 }
