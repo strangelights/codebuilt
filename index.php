@@ -88,6 +88,10 @@
         <a href="https://git.rsglab.com/josh-brookshire/echo-comm" target="_blank">Repo</a>
         <span class="contribution"> - Contributor</span>
         <br>
+        <a href="https://git.rsglab.com/rsg/supportbot/blob/master/README.md" target="_blank">SupportBot</a>
+        <span> - </span>
+        <a href="https://git.rsglab.com/josh-brookshire/supportbot" target="_blank">Repo</a>
+        <span class="contribution"> - Contributor</span>
         <br>
         <span class="project-type">Personal:</span>
         <br>
