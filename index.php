@@ -107,7 +107,9 @@
         <span> - </span>
         <a href="https://github.com/strangelights/codebuilt" target="_blank">Repo</a>
         <br>
-        <a href="https://github.com/strangelights/slack_dark_theme" target="_blank">Slack Dark Theme</a>
+        <a href="https://raw.githubusercontent.com/strangelights/slack_dark_theme/master/slack_dark_theme.png" target="_blank">Slack Dark Theme</a>
+        <span> - </span>
+        <a href="https://github.com/strangelights/slack_dark_theme" target="_blank">Repo</a>
     </div>
     <footer><i id="envelope"class="fas fa-envelope"></i><a href="mailto:josh@codebuilt.dev">josh@codebuilt.dev</a></footer>
 </body>
