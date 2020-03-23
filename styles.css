@@ -86,7 +86,7 @@ a:hover {
 
 .project-type {
     color: #373737;
-    font-size: 29px;
+    font-size: 27px;
     font-weight: 800;
     display: block;
     margin-bottom: -12px;
@@ -96,7 +96,7 @@ a:hover {
 
 .project-title {
     font-weight: 200;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .project-repo {
