@@ -6,18 +6,36 @@ body {
     margin: 0;
 }
 
-nav {
+#header-wrapper {
+    height: 226px;
+    background-color: #1A2930;
+    padding-top: 8px;
+}
+
+#toggle-wrapper {
     float: right;
-    width: 35px;
+    width: 100px;
     position: absolute;
     top: 30px;
     margin-left: 85%;
 }
 
-#wrapper {
-    height: 226px;
-    background-color: #1A2930;
-    padding-top: 8px;
+#theme-toggle {
+    width: 35px;
+    position: relative;
+    margin: auto;   
+}
+
+#sun-icon {
+    position: absolute;
+    top: -3px;
+    right: -30px;
+    color: #c0b283;
+    font-size: 21px;
+}
+
+#moon-icon {
+    display: none;
 }
 
 h1 {
@@ -35,14 +53,14 @@ h2 {
     text-align: center;
     font-weight: lighter;
     font-size: 1.2em;
-    top: -65px;
+    top: -63px;
     left: -63px;
 }
 
 #languages {
     color: #c0b283;
     position: relative;
-    top: -104px;
+    top: -102px;
     left: 96px;
     font-size: 1em;
     
@@ -110,6 +128,7 @@ footer a {
     border: 2px solid #BBBBBB; border-radius: 18px;
     background-color: #BBBBBB;
     transition: background-color 0.2s ease-in;
+    z-index: 1;
 }
 .onoffswitch-label:before {
     content: "";
@@ -119,6 +138,7 @@ footer a {
     right: 15px;
     border: 2px solid #BBBBBB; border-radius: 18px;
     transition: all 0.2s ease-in; 
+    z-index: 1;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label {
     background-color: #5EAD7E;

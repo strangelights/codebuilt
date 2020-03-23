@@ -1,4 +1,4 @@
-body, #wrapper {
+body, #header-wrapper {
     /* background-color: #121415; */
     background-color: #152025;
     color: #d6d6d6;
@@ -14,4 +14,17 @@ h1, h2, footer, .project-type {
 
 footer a {
     color: #d6d6d6;
+}
+
+#sun-icon {
+    display: none;
+}
+
+#moon-icon {
+    position: absolute;
+    top: -3px;
+    left: 43px;
+    color: #c0b283;
+    font-size: 21px;
+    display: inline;
 }

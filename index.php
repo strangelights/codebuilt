@@ -19,8 +19,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="alternate stylesheet" type="text/css" href="darktheme.css" title="darktheme">
+    <script src="https://kit.fontawesome.com/96aa305cf2.js" crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81785500-3"></script>
@@ -36,11 +36,15 @@
     <script src="styleswitcher.js"></script>
 </head>
 <body>
-    <div id="wrapper">
-    <nav>
+    <div id="header-wrapper">
+    <div id ="toggle-wrapper">   
+    <div id="theme-toggle">
+        <div id="sun-icon"><i class="fas fa-sun"></i></div>
         <input class="onoffswitch-checkbox" id="onoffswitch" name="onoffswitch" type="checkbox" onclick="themeToggle()">
         <label class="onoffswitch-label" for="onoffswitch"></label>
-    </nav>
+        <div id="moon-icon"><i class="fas fa-moon"></i></div>
+    </div>
+    </div>
     <script>
         var checkbox = document.querySelector("input[name=onoffswitch]");
         checkbox.addEventListener( 'change', themeToggle )
