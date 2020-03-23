@@ -1,5 +1,4 @@
 body, #header-wrapper {
-    /* background-color: #121415; */
     background-color: #152025;
     color: #d6d6d6;
 }
@@ -22,7 +21,7 @@ footer a {
 
 #moon-icon {
     position: absolute;
-    top: -3px;
+    top: -1px;
     left: 43px;
     color: #c0b283;
     font-size: 21px;

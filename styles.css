@@ -1,13 +1,13 @@
 body {
     background-color: #f4f4f4;
     color: #373737;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     height: 100vh;
     margin: 0;
 }
 
 #header-wrapper {
-    height: 226px;
+    height: 178px;
     background-color: #1A2930;
     padding-top: 8px;
 }
@@ -17,7 +17,7 @@ body {
     width: 100px;
     position: absolute;
     top: 30px;
-    margin-left: 85%;
+    margin-left: 77%;
 }
 
 #theme-toggle {
@@ -28,7 +28,7 @@ body {
 
 #sun-icon {
     position: absolute;
-    top: -3px;
+    top: -1px;
     right: -30px;
     color: #c0b283;
     font-size: 21px;
@@ -41,29 +41,37 @@ body {
 h1 {
     color: #f4f4f4;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 800;
     text-align: center;
-    font-size: 4em;
+    font-size: 49px;
 }
 
 h2 {
     color: #f4f4f4;
     font-style: italic;
-    position: relative;
+    position: absolute;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 200;
     font-size: 1.2em;
-    top: -63px;
-    left: -63px;
+    top: 82px;
+    left: -51px;
+    right: 158px;
 }
 
 #languages {
     color: #c0b283;
-    position: relative;
-    top: -102px;
-    left: 96px;
+    position: absolute;
+    top: 89px;
+    left: 279px;
+    right: 0px;
     font-size: 1em;
-    
+}
+
+#links {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    min-width: 535px;
 }
 
 a {
@@ -78,28 +86,34 @@ a:hover {
 
 .project-type {
     color: #373737;
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 29px;
+    font-weight: 800;
     display: block;
-    margin-bottom: -10px;
+    margin-bottom: -12px;
+    margin-top: 20px;
     
 }
 
-#links {
-    margin: auto;
-    width: 50%;
-    margin-top: 20px;
+.project-title {
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.project-repo {
+    font-size: 17px;
 }
 
 .contribution {
-    font-size: 1.1em;
+    font-size: 17px;
+    float: right;
+    position: relative;
+    top: 6px;
 }
-
 
 footer {
     color: #373737;
     text-align: center;
-    font-size: 1em;
+    font-size: 15px;
     margin-top: 70px;
 }
 
