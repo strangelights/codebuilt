@@ -99,6 +99,10 @@
         <br>
         <span class="project-type">Personal Projects</span>
         <br>
+        <a class="project-title" href="https://math-quiz-app.herokuapp.com/" target="_blank">Math Quiz App</a>
+        <span> - </span>
+        <a class="project-repo" href="https://github.com/strangelights/techdegree-project-2" target="_blank">Repo</a>
+        <br>
         <a class="project-title" href="https://random-quote-generator-website.herokuapp.com/" target="_blank">Random Quote Generator</a>
         <span> - </span>
         <a class="project-repo" href="https://github.com/strangelights/techdegree-project-1" target="_blank">Repo</a>
